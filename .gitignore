@@ -1,0 +1,28 @@
+# Dify 源码（使用独立仓库管理）
+dify/
+
+# Docker 镜像（体积过大，不提交）
+*.tar
+dify-images-amd64-backup/*.tar
+dify-images-amd64-backup/load-image.sh
+dify-images-arm64-backup/*.tar
+dify-images-arm64-backup/load-image.sh
+
+# Docker 备份目录
+docker_backups/
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.tmp
+*.log
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
