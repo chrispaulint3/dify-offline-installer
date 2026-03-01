@@ -2,11 +2,9 @@
 dify/
 
 # Docker 镜像（体积过大，不提交）
-*.tar
-dify-images-amd64-backup/*.tar
-dify-images-amd64-backup/load-image.sh
-dify-images-arm64-backup/*.tar
-dify-images-arm64-backup/load-image.sh
+*.zip
+
+*.cfg
 
 # Docker 备份目录
 docker_backups/
